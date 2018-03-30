@@ -1,0 +1,181 @@
+body{
+    background-color: antiquewhite;
+
+    color: #7D1935;
+    font-size: 87.5%;
+    font-family: Arial;
+    line-height: 1.5;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+.mainHeader img {
+    width: 30%;
+    height: auto;
+    clear: both;
+    margin:2% 0 0 0;
+
+}
+.mainHeader nav{
+    background-color: darkgrey;
+    height: 40px;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+
+}
+.mainHeader nav a:link , .mainHeader nav a:visited{
+    display: inline-block;
+    color: white;
+    padding: 10px 60px;
+    height: 20px;
+}
+
+
+
+.mainHeader nav a:hover , .mainHeader nav a:active ,
+.mainHeader nav .active a:link , .mainHeader nav .active a:visited
+{
+    background-color: darkorange;
+    text-shadow: none;
+
+}
+.mainContent{
+    line-height: 25px;
+}
+.mainContent .educationContent {
+    background-color: snow;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.mainContent .Projects{
+    background-color: snow;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+.mainContent .skills{
+    background-color: snow;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.body h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+.mainHeader h2{
+
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 3%;
+}
+
+
+
+@media screen and (min-width: 150px) and (max-width: 600px) {
+
+
+    .body{
+        margin: 0 auto;
+        width: 90%;
+        clear: both;
+    }
+
+    .mainHeader img {
+        width: 90%;
+        height: auto;
+        clear: both;
+        margin:1% 0 0 0;
+
+    }
+
+    .mainHeader nav{
+
+        background-color: darkgrey;
+        height: 160px;
+    }
+    .mainHeader nav ul{
+        padding-left:0;
+        list-style: none;
+
+    }
+    .mainHeader nav ul li{
+          width: 100%;
+          text-align: center;
+      }
+
+
+
+    .mainHeader nav a:link , .mainHeader nav a:visited{
+
+        padding: 10px 70px;
+    }
+    .mainHeader nav a:hover , .mainHeader nav a:active ,
+    .mainHeader nav .active a:link , .mainHeader nav .active a:visited
+    {
+        font-size: 20px;
+        background-color: darkorange;
+        text-shadow: none;
+        display: block;
+
+    }
+
+}
+
+
+
+
+/*ks*/
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+
+
+
+    .mainHeader nav{
+
+        background-color: darkgrey;
+        height: 100px;
+    }
+    .mainHeader nav ul{
+        padding-left:0;
+        list-style: none;
+
+    }
+    .mainHeader nav ul li{
+        width: 50%;
+        text-align: center;
+    }
+
+
+
+    .mainHeader nav a:link , .mainHeader nav a:visited{
+
+        padding: 10px 70px;
+    }
+    .mainHeader nav a:hover , .mainHeader nav a:active ,
+    .mainHeader nav .active a:link , .mainHeader nav .active a:visited
+    {
+        font-size: 20px;
+        background-color: darkorange;
+        text-shadow: none;
+        display: block;
+
+    }
+
+}
